@@ -10,5 +10,5 @@ adduser xrdp ssl-cert
 /usr/sbin/xrdp-sesman
 /usr/sbin/xrdp
 
-echo "==> Starting Pinggy TCP Tunnel..."
-ssh -p 443 -R0:localhost:3389 qr@a.pinggy.io -o StrictHostKeyChecking=no
+echo "==> Starting Serveo TCP Tunnel..."
+ssh -o StrictHostKeyChecking=no -R 0:localhost:3389 serveo.net
